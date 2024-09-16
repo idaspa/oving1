@@ -70,4 +70,5 @@ console.log ("Hei player "+myName+"your score is "+score);
     Lag en variabel som skal representere høyest oppnåd score i et spill.
     Set verdien av denne nye variabelen til verdien av variabelen fra oppgave B
 */
-
+let highscore = score;
+console.log (highscore);
