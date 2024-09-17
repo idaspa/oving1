@@ -128,3 +128,6 @@ console.log(phoneNumbers[2]);
 */
 
 let personer = [["Christian", "Simonsen"], ["Tony", "Bergholtz"]]
+for(index = 0; index <= personer.length - 1; index++){
+    console.log(personer[index][1]); 
+    }
