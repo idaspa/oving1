@@ -58,10 +58,14 @@ for (let index = 100; index > 0; index--) {
     console.log(index + " flasker med brus i kassa");
     console.log(index + " flasker med brus i kassa");
 
-    console.log("Ta en ut, drikk den opp " + (index -1) + " flasker med brus i kassa");
+    if (index < 99){
+        console.log("Ta en ut, drikk den opp " + (index -1) + " flasker med brus i kassa");
+    }else{
+        console.log(" Ingen flere flasker med brus i kassa");    
+    }
+    
 }
 
-console.log(" Ingen flere flasker med brus i kassa");
  
 /*
     Oppgave: C
@@ -81,9 +85,20 @@ console.log("Oppgave: D");
 
 // lag funksjonen din her. 
 
+/*
+function add(tall1, tall2){
+    const sum = tall1 + tall2;
+    console.log(sum);
+}
+*/
+
+function add(tall1, tall2){
+    return tall1 + tall2;
+}
 
 console.log("3 + 6 = " + add(3,6));
 console.log("5673 + 234 = " + add(5673,234));
+console.log("90 + 234 = " + add(90,234));
 
 /*
     Oppgave: E
