@@ -29,9 +29,8 @@ for(let index = 0; index < people.length; index++){
 console.log("Oppgave: A");
  
 for(let index = 0; index < 100; index++) {
-    console.log(" Debugging er som å være en dektektiv i et krimdrama hvor du også er morderen ");
+    console.log("Debugging er som å være en dektektiv i et krimdrama hvor du også er morderen ");
 }
-
 
 /*
     Oppgave: B
@@ -61,6 +60,7 @@ for (let index = 100; index > 0; index--) {
 
     console.log("Ta en ut, drikk den opp " + (index -1) + " flasker med brus i kassa");
 }
+
 console.log(" Ingen flere flasker med brus i kassa");
  
 /*
@@ -69,6 +69,7 @@ console.log(" Ingen flere flasker med brus i kassa");
 */
 console.log("Oppgave: C");
 
+ console.log
 
 
 /*
@@ -76,6 +77,7 @@ console.log("Oppgave: C");
     Lag en funksjon som legger sammen to tall, funksjonen skal hete add
 */
 console.log("Oppgave: D");
+
 
 // lag funksjonen din her. 
 
@@ -88,16 +90,13 @@ console.log("5673 + 234 = " + add(5673,234));
     Bruk variabelen people fra eksempelet og skriv navna ut i reversert rekke følge (bruk en løkke)
     NB du skal ikke endre på people, bare bruke det som den inneholder.
 */
-console.log("Oppgave: D");
-
-
 
 /*
     Oppgave: F
     Deklarere en variabel for en liste med telefon nummer. Listen din skal ha minst 3 nummer. 
 */
-console.log("Oppgave: D");
 
+let phoneNumbers = [12345678, 87654321, 23746598];
 
 /*
     Oppgave: G

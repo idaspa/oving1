@@ -38,7 +38,7 @@ let score = 0;
 */
  score*=10; 
  
-
+ 
 /*
     Oppgave: E
     Lag en variabel for å lagre et telefon nummer (bruk et fiktift nummer)
