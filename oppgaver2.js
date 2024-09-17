@@ -66,22 +66,20 @@ for (let index = 100; index > 0; index--) {
     
 }
 
- 
 /*
     Oppgave: C
     Deklarere en variabel for tyngdekraft og en variabel for pi og en variabel for antall personer i et rom. 
 */
 console.log("Oppgave: C");
 
- console.log
-
+let tyngdekraft = 9.81;
+const pi = 3.14;
+let antallPersIrommet = 15;
 
 /*
     Oppgave: D
     Lag en funksjon som legger sammen to tall, funksjonen skal hete add
 */
-console.log("Oppgave: D");
-
 
 // lag funksjonen din her. 
 
@@ -105,19 +103,25 @@ console.log("90 + 234 = " + add(90,234));
     Bruk variabelen people fra eksempelet og skriv navna ut i reversert rekke følge (bruk en løkke)
     NB du skal ikke endre på people, bare bruke det som den inneholder.
 */
-
+for(let index = people.length-1 ; index >= 0; index--){
+    const person = people [index];
+    console.log(person) ;
+}
 /*
     Oppgave: F
     Deklarere en variabel for en liste med telefon nummer. Listen din skal ha minst 3 nummer. 
 */
 
-let phoneNumbers = [12345678, 87654321, 23746598];
-
+const phoneNumbers = [12345678, 87654321, 23746598];
+let telefonNummer
 /*
     Oppgave: G
     Skriv ut bare det siste telefon numeret i listen din. 
 */
+const lastNumber = phoneNumbers.length-1;
 
+console.log(lastNumber);
+console.log(phoneNumbers[2]); 
 /*
     Oppgave: H
     Skriv ut kunn etternavnene for personene i listen, bruk en løkke.
