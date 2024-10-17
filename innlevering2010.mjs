@@ -120,7 +120,8 @@ console.log("Oppgave: G");
 const DICTIONARY_ML = {
     no:{
         hello:"Hei på deg",
-        howAreYou:"hvordan står det til?"
+        howAreYou:"hvordan står det til?",
+        goodQuestionsLatly:"fått noen gode spørsmål i det siste?"
     },
     en:{
 hello:"Hello",
