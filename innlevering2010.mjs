@@ -38,6 +38,7 @@ let mixRatio = 1/4;
 let daysUntilBirthday = 69;
 let millimeterRain = 1;  
 
+
 /*
     Oppgave: B
     Bruk variablene dine fra oppgave A og kalkuler:
@@ -53,6 +54,7 @@ console.log("Oppgave: B");
 
 const secondsToHoursCalc = SECONDS_IN_A_MINUTE * MINUTES_IN_AN_HOUR * 2.5;
 const minutesInDaysCalc = MINUTES_IN_AN_HOUR * HOURS_IN_A_DAY * 123;
+
 
 /*
     Oppgave: C
@@ -74,6 +76,7 @@ for(let i = 10; i > 0; i --) {
     console.log(i)
 }
 
+
 /*
     Oppgave: E
     Denne er litt vanskligere, men du klarer den ;)
@@ -88,6 +91,7 @@ for(let i = 0; i <= 100; i++) {
         console.log(i)
     }
 }
+   
 
 /*
     Oppgave: F
@@ -95,14 +99,17 @@ for(let i = 0; i <= 100; i++) {
 */
 console.log("Oppgave: F");
 
+
+
 const DICTIONARY = {
     hello:"Hei på deg",
     howAreYou:"hvordan står det til?",
-    goodQuestionsLatly:"fått noen gode spørsmål i det siste?"
+goodQuestionsLatly:"fått noen gode spørsmål i det siste?"
 }
 
-console.log(`${DICTIONARY.hello} Christian ${DICTIONARY.howAreYou}`); //-> Hei på deg Christian, hvordan står det til?
+console.log(`${DICTIONARY.hello} Christian, ${DICTIONARY.howAreYou}`); //-> Hei på deg Christian, hvordan står det til?
 console.log(`${DICTIONARY.goodQuestionsLatly}`) //-> Fått noen gode spørsmål i det siste?
+
 
 /*
     Oppgave: G
@@ -110,18 +117,18 @@ console.log(`${DICTIONARY.goodQuestionsLatly}`) //-> Fått noen gode spørsmål 
 */
 console.log("Oppgave: G");
 
-const DICTIONARY_ML_EN = {
+const DICTIONARY_ML = {
     no:{
         hello:"Hei på deg",
         howAreYou:"hvordan står det til?"
-    }   goodQuestionsLatly:"fått noen gode spørsmål i det siste?"
+    },
     en:{
-        hello:"Hello",
-        howAreYou:"how are you?",
-        goodQuestionsLatly:"have you gotten any good questions lately?"
+hello:"Hello",
+howAreYou:"how are you?",
+goodQuestionsLatly:"have you gotten any good questions lately?"
     }
 }
 
-console.log(`${DICTIONARY.ML.EN.hello} Christian ${DICTIONARY.ML.en.howAreYou}`); //-> Hi Christian, how are you?
-console.log(`${DICTIONARY.ML.EN.goodQuestionsLatly}`) //-> Gotten anny good questions latly?
+console.log(`${DICTIONARY_ML.en.hello} Christian ${DICTIONARY_ML.en.howAreYou}`); //-> Hi Christian, how are you?
+console.log(`${DICTIONARY_ML.en.goodQuestionsLatly}`) //-> Gotten anny good questions latly?
 
